@@ -2,7 +2,7 @@
   "scripts": {
     "archive-storybook": "archive-storybook",
     "build-archive-storybook": "build-archive-storybook",
-    "chromatic": "npx chromatic@latest --build-script-name=build-archive-storybook -t=chpt_d2d0f4b6cad89a3",
+    "chromatic": "npx chromatic@latest --build-script-name=build-archive-storybook -t=< project-token >",
     "test": "npx playwright test"
   },
   "devDependencies": {

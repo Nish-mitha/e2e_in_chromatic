@@ -10,4 +10,4 @@ RUN npm install
 
 RUN npm run test
 
-# RUN npm run chromatic
+RUN npm run chromatic
