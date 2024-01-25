@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "archive-storybook": "archive-storybook",
+    "build-archive-storybook": "build-archive-storybook",
+    "chromatic": "npx chromatic@latest --build-script-name=build-archive-storybook -t=chpt_d2d0f4b6cad89a3",
+    "test": "npx playwright test"
+  },
+  "devDependencies": {
+    "@storybook/addon-essentials": "^7.0.0",
+    "@storybook/server-webpack5": "^7.0.0",
+    "chromatic": "^10.5.0",
+    "chromatic-playwright": "^0.4.0",
+    "storybook": "^7.0.0"
+  }
+}

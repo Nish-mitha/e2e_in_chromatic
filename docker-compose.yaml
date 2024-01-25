@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  playwright-test:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+    command: npm run archive-storybook
